@@ -22,42 +22,37 @@ window.addEventListener("DOMContentLoaded", function () {
       <td>${user.startDate}</td> 
       <td>
           <img class="del" src="../../../assets/delete.png"  alt="image" onclick='del(${user.id})'>
-          <img class="edit" src="../../../assets/edit.png" alt="image">
+          <img class="edit" src="../../../assets/edit.png" alt="image" onclick="redirect(${user.id})">
           
       </td>
       </tr>
       <br>
-     
       `
-
       }
-
-
       document.getElementById("display").innerHTML += innerHTML;
-
-
-
 
     }
 
   });
 
 
-  function del(id) {
-    id = id;
-    $.ajax({
-      url: "http://localhost:3000/employees/" + id,
-      type: "DELETE",
-      success: function (result) {
-        console.log("deleted successfully")
-      }
-    });
-  }
-
-
-
 
 
 });
 
+function del(id) {
+  id = id;
+  $.ajax({
+    url: "http://localhost:3000/employees/" + id,
+    type: "DELETE",
+    success: function (result) {
+      console.log("deleted successfully")
+      window.location.reload();
+    }
+  });
+}
 
+function redirect(id){
+  localStorage.setItem("id",id)
+  window.location.href = "../pages/edit.html"
+}

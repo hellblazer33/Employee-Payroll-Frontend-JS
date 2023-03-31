@@ -2,9 +2,9 @@
 
     let name = this.document.getElementById("name")
     let gender = $("input[type='radio'].text:checked").val()
-  //   let department = $('.checkbox:checked').map(function(_, el) {
-  //     return $(el).val();
-  // }).get()
+    // let department = $('.checkbox:checked').map(function(_, el) {
+    //   return $(el).val();
+    // }).get()
     // let profile = $('input[name="radio"]:checked').val();
     //let startDate = $($("day option:selected").val() + "-" + $("month option:selected").val() + "" + $("year option:selected").val())
     let salary = this.document.getElementById("salary")

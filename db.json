@@ -5,7 +5,7 @@
       "profile": "../assets/Ellipse3.png",
       "gender": "male",
       "department": "HR,Finance",
-      "startDate": "11-7-2017",
+      "startDate": "11-07-2017",
       "salary": "10000",
       "notes": "ss",
       "id": 1
@@ -14,51 +14,61 @@
       "name": "Raj Singh",
       "profile": "../assets/Ellipse2.png",
       "gender": "male",
-      "department": "HR,Engineer",
-      "startDate": "6-4-2016",
-      "salary": "20000",
+      "department": "HR,Finance,Sales,Engineer,Others",
+      "startDate": "15-10-2020",
+      "salary": "30000",
       "notes": "ss",
       "id": 2
-    },
-    {
-      "name": "sss",
-      "profile": "../assets/Ellipse1.png",
-      "gender": "female",
-      "department": "HR",
-      "startDate": "6-4-2016",
-      "salary": "10000",
-      "notes": "ssddd",
-      "id": 3
     },
     {
       "name": "ssdd",
       "profile": "../assets/Ellipse1.png",
       "gender": "female",
       "department": "HR",
-      "startDate": "10-5-2018",
+      "startDate": "10-05-2018",
       "salary": "10000",
       "notes": "ss",
       "id": 4
     },
     {
-      "name": "Aman Kumar",
-      "profile": "../assets/Ellipse3.png",
+      "name": "Aman Singh",
+      "profile": "../assets/Ellipse2.png",
       "gender": "male",
-      "department": "HR,Sales",
-      "startDate": "4-3-2016",
-      "salary": "30000",
+      "department": "Engineer",
+      "startDate": "19-11-2020",
+      "salary": "10000",
       "notes": "aman",
       "id": 5
     },
     {
-      "name": "Suraj Kumar",
+      "name": "sss",
+      "profile": "../assets/Ellipse1.png",
+      "gender": "female",
+      "department": "HR,Finance,Engineer",
+      "startDate": "12-12-2015",
+      "salary": "20000",
+      "notes": "ss",
+      "id": 6
+    },
+    {
+      "name": "dff",
       "profile": "../assets/Ellipse2.png",
       "gender": "male",
-      "department": "Engineer",
-      "startDate": "9-3-2017",
-      "salary": "20000",
-      "notes": "suraj",
-      "id": 6
+      "department": "HR,Sales,Others",
+      "startDate": "12-05-2016",
+      "salary": "10000",
+      "notes": "dss",
+      "id": 7
+    },
+    {
+      "name": "Ajay Yadav",
+      "profile": "../assets/Ellipse2.png",
+      "gender": "male",
+      "department": "HR,Finance",
+      "startDate": "06-05-2015",
+      "salary": "10000",
+      "notes": "ss",
+      "id": 8
     }
   ]
 }
